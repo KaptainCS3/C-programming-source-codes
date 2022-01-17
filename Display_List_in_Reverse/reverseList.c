@@ -17,10 +17,14 @@ void reverseList(struct linkedList **head_ref){
         curr = *head_ref;
         next = NULL;
         while(curr != NULL){
+            //store the node
             next = curr->next;
+            // reverse the node
             curr->next = prev;
+            //swapping position moing one step ahead
             prev = curr;
             curr = next;
         }
+        // after reverse set prev node to refrerence node
             *head_ref = prev;
 }
