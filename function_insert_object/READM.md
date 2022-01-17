@@ -1,0 +1,2 @@
+### Problem description
+A lab technician wishes to have a program to represent and handle a collection of IT objects of it computer laboratory. Information to manage is restricted to : code, type, description.
