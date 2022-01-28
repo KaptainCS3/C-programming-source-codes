@@ -2,7 +2,7 @@
 #include<string.h>
 int main(void){
     int i;
-    char str[20] = "Hello World!";
+    char str[] = "Hello World!";
     for(i = strlen(str)- 1; i >= 0 ; i--)
-    printf("%s", str[i]);
+    printf("%c\n", str[i]);
 }
