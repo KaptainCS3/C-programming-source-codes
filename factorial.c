@@ -2,19 +2,20 @@
 
 int main()
 {
-Int factorial (int z)
+int factorial (int z)
+  {
+   Printf("error message");
+   }
+    break;
+else
 {
-              Printf("error message");
-           }
-             break;
-Else
-           {
-              If((z==0) || (z==1)
-                {
-                    return 1;    
-                }
-else return z*factorial (z-1);
-                }
-            }
-    return 0;
-}
+  if((z==0) || (z==1)
+   {
+     return 1;    
+     }
+else{
+
+  return z*factorial (z-1);
+  
+  }
+   }
