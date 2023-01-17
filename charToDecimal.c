@@ -4,4 +4,3 @@ int main(void){
     scanf("%s", c);
     printf("%d\n", (int)c);
 }
-}
