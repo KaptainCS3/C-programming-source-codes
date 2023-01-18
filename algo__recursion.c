@@ -14,9 +14,8 @@ int one(int n)
     {
         for (int i = 0; i < pow(2, n); i++)
         {
-            printf("what is printed here???\n");
-            printf("%d\n", i);
-            one(n - 1);
+            
         }
     }
+            one(n - 1);
 }
